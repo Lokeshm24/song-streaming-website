@@ -1,0 +1,108 @@
+<html>
+
+  <head>
+    <title>
+      About Website
+    </title>
+    <link rel="stylesheet" type="text/css" href="about.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script>
+      $(window).scroll(function(event) {
+
+        var yOffset = window.pageYOffset;
+        var breakpoint = 50;
+        if (yOffset > breakpoint) {
+          $(".nav-bar").addClass('active');
+        } else {
+          $(".nav-bar").removeClass('active');
+        }
+
+      });
+
+    </script>
+  </head>
+
+  <body class="margin">
+    <div class="nav-bar about">
+      <div id="inline">
+        <img src="logo.png" height="70px" width="150px" />
+      </div>
+      <div id="inline">
+        <a href="homepage.php" class="pages">Songs</a>
+        <a href="karaoke.php" class="pages">Karaoke</a>
+        <a href="about.html" class="pages active">About</a>
+        <a href="help.html" class="pages">Help</a>
+      </div>
+    </div>
+    <div class="landing">
+      <div id="music">
+        Next to the Word of God,
+        <br>the noble art of music is the
+        <br> greatest treasure in the world....
+      </div>
+    </div>
+    <div id="heading">
+      <center>
+        About this project
+      </center>
+    </div>
+    <div id="body1">
+      <b>Jhoom Jingle</b> is under underdevelopment with a scope of many new features. As nothing is perfect everything has posibilities of getting better. The few of the existing features are:</div>
+    <div style="padding: 10px 40px; height: 300px; display: block; clear: both">
+      <a href="homepage.php">
+        <div class="mybox">
+          <h1>Songs</h1>
+          <div class="img one">
+          </div>
+          <ul>
+            <li>Contains more than 100 song.</li>
+            <li>Features of play and pause.</li>
+            <li>Instant play on click.</li>
+          </ul>
+        </div>
+      </a>
+      <a href="karaoke.php">
+        <div class="mybox">
+          <h1>Karaoke</h1>
+          <div class="img two">
+          </div>
+          <ul>
+            <li>Browse song from your device.</li>
+            <li>Create Karaoke.</li>
+            <li>Download Karaoke.</li>
+          </ul>
+        </div>
+      </a>
+      <a href="hompage.php">
+        <div class="mybox">
+          <h1>Playlist</h1>
+          <div class="img three">
+          </div>
+          <ul>
+            <li>Each playlist contains different set of songs.</li>
+            <li>New playlist can be added by user.</li>
+            <li>Can play any song from any playlist.</li>
+          </ul>
+        </div>
+      </a>
+    </div>
+    <br>
+    <div id="heading" style="display: block; clear: both">
+      <center>
+        Scope
+      </center>
+    </div>
+    <div id="body1">
+      <ul>
+        <li>More songs</li>
+        <li>Custom playlist</li>
+        <li>Rateing songs</li>
+        <li>Algo to create playlist according to users most played songs</li>
+        <li>Karaoke competition between two users</li>
+      </ul>
+    </div>
+  </body>
+
+</html>

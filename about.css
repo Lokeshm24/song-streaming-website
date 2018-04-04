@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body{
+	margin-top: 80px !important;
+	font-family: Nunito, arial;
+	background-image: url("bgimg.png");
+	padding-bottom: 80px;
+}
+
+.active{
+	background:white !important;
+	color:black !important;
+}
+.pages{
+	display:inline-block;
+	margin:0px;
+	font-size: 20px;
+	padding:20px 5px;
+	cursor: pointer;
+	color: white;
+}	
+
+.login{
+	border:1px solid white !important;
+	border-radius:50px !important;
+	text-align:center !important;
+	padding:10px 30px !important;
+	background: #006064 !important;
+	color: white !important;
+	font-size: 15px !important;
+	font-weight: bold !important;
+}
+
+.nav-bar{
+	position:fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	line-height:10px;
+	padding:0px;
+	color: white;
+	z-index:1000;
+  transition: background 0.5s;
+}
+
+#inline{
+	display: inline-block;
+}
+
+.downloadBtn{
+	background:rgba(0,0,0,0);
+	border-radius:50%;
+	padding: 5px 5.5px;
+	color: white;
+	border: 2px solid white;
+	position: absolute;
+	top: 8px;
+	right:200px;
+	transition: 0.2s;
+}
+
+.downloadBtn:hover{
+	color: red;
+	border-color: red;
+}
+
+.login-button{
+	position: absolute;
+	right: 20px;
+	top: 5px;
+	
+}
+
+div#inline a:not(.active):hover{
+	background: #00897B !important;
+	color: white !important;
+}
+
+#welcome{
+	text-align: center;
+	text-decoration: underline;
+	letter-spacing: 5px;
+	font-size:40px;
+	
+}
+#music{
+	text-align:center;
+	font-size:15px;
+	word-spacing:3px;
+	font-family:arial;
+}
+
+.login:hover{
+	background:white !important;
+	color: #0097a7 !important;
+	cursor:pointer !important;
+}
+
+ul li{
+	list-style-type: none;
+}
+
+.category{
+	font-size: 25px;
+	background:#00695c;
+}
+
+.category div:not(.active) li{
+	color: white;
+}
+
+.category li{
+	cursor:pointer;
+	padding: 15px 5px;
+}
+
+.play{
+
+}
+
+.playButton{
+	border:1px solid #004D40;
+	border-radius:50%;
+	background:#004D40;
+	padding:8px 10px;
+	color:white;
+	cursor:pointer;
+}
+
+a{
+	color: black;
+	font-family: 'Nunito', arial;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 0px;
+}
+
+ul{
+	margin: 0px;
+}
+
+a:hover{
+	text-decoration: none !important;
+}
+
+ol {
+	list-style-type:none;
+}
+.container {
+    padding: 16px;
+}
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.inputBox{
+	font-size: 17px;
+	padding:2px 10px;
+	font-family: 'Nunito', arial;
+	border-radius: 5px;
+	border: 2px solid rgba(170,170,170,0.6);
+}
+
+.inputBox:focus{
+	box-shadow: 1px 0px 10px rgba( 38, 166, 154 , 0.5);
+	border:2px solid rgba(38,166,154,0.6);
+}
+
+.btn:hover{
+	background: white !important;
+	border: 1.5px solid #006064 !important;
+	color: #006064 !important;
+}
+
+#login-modal{
+	background-color: #006064 !important; 
+	color: white !important; 
+	margin-left:16px !important; 
+	padding: 7px 110px !important;
+}
+
+#login-modal1{
+	padding: 7px 110px !important;
+}
+
+div.category div#inline:not(.active):hover{
+	background: #00897B !important;
+	color: white !important;
+}
+
+.notActive{
+	display: none;
+}
+
+#songs ul li{
+	background:white;
+	border-bottom: 2px solid blue;
+	width: 800px !important;
+	margin-bottom:1px;
+	cursor: pointer;
+	height:53px;
+}
+
+#songs ul li:hover{
+	box-shadow: 0px 10px 10px grey;
+	transform: scale(1.005);
+}
+
+#songs ul li a{
+	margin: 0px; 
+	display: block; 
+	width: 100%; 
+	height: 100%;
+	padding: 7px 5px;
+}
+div.faq
+{
+    margin-left: 150px;
+	margin-top: 250px;
+}
+
+.helpCenter{
+	background-image: url("img/support.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	display: block;
+	background-size: cover;
+	height: 300px;
+	background-position: left center;
+}
+font{
+	margin-top: 20px;
+	background: rgba(0, 0, 0, 0.5);
+}
+.faq ul{
+	padding: 20px 50px;
+	background: white;
+	box-shadow: 5px 10px 10px grey;
+	width: 1000px;
+}
+
+#music{
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	text-decoration: none;
+	font-size: 50px;
+}
+
+.landing{
+	background: url("img/trackImage.jpg");
+	background-repeat:	no-repeat;
+	background-size: cover;
+	height: 700px;
+	padding-top: 250px;
+}
+
+.margin{
+	margin-top:0px !important;
+}
+
+.about{
+	box-shadow: none !important;
+}
+
+#heading{
+	color: rgba(0,0,255,0.8);
+	font-weight: 700;
+	font-size: 50px;
+	font-family: nunito;
+	margin-top: 30px;
+	background: rgba(255,255,255, 0.5);
+}
+
+#body1{
+	font-size: 30px;
+	padding: 20px 50px;
+}
+
+.mybox{
+	height: 300px;
+	width: 400px;
+	background: white;
+	box-shadow: 5px 8px 10px grey;
+	float: left;
+	margin: 10px 10px;
+	transition: 0.15s ease-out;
+}
+
+.mybox h1{
+	font-size: 25px;
+	margin: 0px;
+	background: rgba(0,0,0,.5);
+	width: 150px;
+	text-align: center;
+	position: absolute;
+	color: white;
+}
+
+.img{
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 200px;	
+	margin-bottom: 8px;
+}
+
+.one{
+	background-image: url("img/song.jpg");
+}
+
+.two{
+	background-image: url("img/karaoke.jpg");
+}
+
+.three{
+	background-image: url("img/playlist.jpg");
+}
+
+.mybox li{
+	font-size: 18px;
+	color: black !important;
+}
+
+.mybox ul{
+	margin-left: -15px;
+}
+
+.mybox:hover{
+	transform: scale(1.04);
+}
+
+#body1 li{
+	list-style-type: circle !important;
+}
+
+#body1 p{
+	width: 810px;
+}
+
+.profile{
+	border-radius: 50%;
+	background-image: url("img/myImage.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	right: -1000px;
+	top: -180px;
+	height: 200px;
+	width: 200px;
+	z-index: -100;
+}
+
+audio{
+	position: absolute;
+	left:600px;
+	top:15px;
+}
+
+.rock{
+	background-image: url("img/rock.jpg");
+}
+
+.sufi{
+	background-image: url("img/sufi.jpg");
+}
+
+.romance{
+	background-image: url("img/romance.jpg");
+}
+
+.party{
+	background-image: url("img/party.jpg");
+}
+
+.search{
+	font-size:20px;
+	margin-left:20px;
+}
+
+.nav-bar.active {
+  background: #006064 !important;
+	box-shadow: 0px 5px 10px #aaa;
+}
+
+.nav-bar.active 
